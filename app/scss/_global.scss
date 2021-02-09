@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;  
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+body{
+    font-family: 'SFProDisplay-Regular', sans-serif;
+    color: #2F3035;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    overflow-x: hidden;
+    min-width: 320px;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.page-section{
+    margin-bottom: 80px;
+}
